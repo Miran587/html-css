@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen dinámica</title>
+</head>
+<body>
+    <h1>Imagen dinámica</h1>
+    <p>tente abrir em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotos-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="Imagens/fotos-g.png" alt="Imagem Flexível">
+    
+    </picture>
+
+    <h1>Reprodução de Áudio</h1>
+
+    <p>vamos aprender a reproduzir  áudio em HTML5.</p>
+   
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/merry-go.mp3.mp3" type="audio/mpeg">
+        <source src="midia/merry-go.mp3.mp3" type="audio/ogg">
+        <source src="midia/merry-go.mp3.mp3" type="audio/wav">
+    </audio>
+    <p>Infelízmente seu navegador não consegue reproduzir áudio.<a href="midia/merry-go.mp3.mp3">Clique aqui para baixar o arquivo MP3.</a> </p>
+</body>
+</html>

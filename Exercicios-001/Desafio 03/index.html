@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Meus Vídeos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #1a1a1a;
+    }
+    h1 {
+      margin: 30px 0;
+      color: white;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .container a img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px rgba(255, 248, 248, 0.849);
+      transition: transform 0.2s;
+    }
+    .container a img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Vídeos legais para assistir</h1>
+
+  <div class="container">
+    <a href="pagina-hardware.html">
+      <img src="imagem/thumb-hardware.png" alt="Hardware">
+    </a>
+    <a href="pagina-html.html">
+      <img src="imagem/thumb-html.png" alt="HTML">
+    </a>
+    <a href="pagina-javascript.html">
+      <img src="imagem/image-png.png" alt="JavaScript">
+    </a>
+    <a href="pagina-python.html">
+      <img src="imagem/image-python.jpeg" alt="Python">
+    </a>
+  </div>
+</body>
+</html>
